@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="/script.js"></script>
+</head>
+<body>
+    <div class="cover-image">
+        <div class="logo">
+            <img src="./logo.png" class="bull">
+            <h1>Bullson</h1>
+        </div>
+        <div class="bottom-left-text">
+            <p>Photo by <a href="https://unsplash.com/@jfbrou">Jf Brou</a> on <a href="https://unsplash.com/photos/915UJQaxtrk">Unsplash</a></p>
+        </div>
+    </div>
+
+    <div class="right-panel">
+        <div class="desc-text">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam iste dolor reiciendis modi enim non pariatur suscipit voluptatibus omnis, 
+                alias, nemo accusantium eligendi voluptatum! Debitis consectetur distinctio atque ipsa ad.</p>
+            <p>Sign up to get started.</p>
+        </div>
+        <form action="#">
+            <div class="form">
+                <p class="form-title">Let's do this!</p>
+                <div class="input">
+                    <label for="first-name">First name</label>
+                    <input type="text" name="first-name" id="first-name" required>
+                </div>
+                
+                <div class="input">
+                    <label for="last-name">Last name</label>
+                    <input type="text" name="last-name" id="last-name">
+                </div>
+                
+                <div class="input">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                
+                <div class="input">
+                    <label for="phone-number">Phone number</label>
+                    <input type="text" name="phone-number" id="phone-number" minlength="9" maxlength="9">
+                </div>
+                
+                <div class="input">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                
+                <div class="input">
+                    <label for="confirm-password">Confirm password</label>
+                    <input type="password" name="confirm-password" id="confirm-password" required>
+                </div>
+            </div>
+            <div class="button"><button id="button" type="submit">Create Account</button></div>
+        </form>
+        <div class="log-in">
+            <p>Already have an account?</p>
+            <p><a href="#">Log in</a></p>
+        </div>
+    </div>
+</body>
+</html>
